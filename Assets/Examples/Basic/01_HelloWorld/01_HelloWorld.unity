@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 279388757}
   - component: {fileID: 279388756}
   m_Layer: 5
-  m_Name: HelloWorldScreen
+  m_Name: HelloWorldView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 1763720108}
   - component: {fileID: 1763720107}
   m_Layer: 0
-  m_Name: HelloWorldLifetimeScope
+  m_Name: LifetimeScope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +638,7 @@ MonoBehaviour:
     TypeName: 
   autoRun: 1
   autoInjectGameObjects: []
-  m_Screen: {fileID: 279388756}
+  m_View: {fileID: 279388756}
 --- !u!4 &1763720108
 Transform:
   m_ObjectHideFlags: 0
